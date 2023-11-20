@@ -207,5 +207,5 @@ if __name__ == "__main__":
         "test": 10,
         "val": 20,
     }
-    sa_folder_path = r'C:\Users\User\Downloads\msc_solubility_20231116_Nov_16_2023_12_47_Rama'
+    sa_folder_path = r'/your/annotation/path/'
     generate_yolo(sa_folder_path, capture_rate=CAPTURE_RATE, split=SPLIT)
